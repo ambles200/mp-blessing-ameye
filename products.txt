@@ -1,12 +1,14 @@
-Coke Zero
-Tea
-Coffee
-Fanta
-Pepsi Max
-Sprite
-7Up
-Hot White Coffee
-Pizzas
-Champagne Ham & Cheese
-Beef & Onion
-Pepperoni
+Coke Zero 
+Tea 
+Coffee 
+Fanta 
+Pepsi Max 
+Sprite 
+7Up 
+Hot White Chocolate 
+Ice Cream
+Champagne Ham & Cheese 
+Beef & Onion 
+Pepperoni 
+Strong Bow
+Apple Juice

@@ -80,7 +80,7 @@ while True:
             elif sub_nav == 3:
                 index = 0
                 for product in my_products:
-                    print(f"{product} {index}")
+                    print(f"{index} {product}")
                     index += 1
                 while True:
                     prod_id = int(input(
@@ -101,7 +101,7 @@ while True:
             else:
                 sub_nav == 4
                 for index, product in enumerate(my_products):
-                    print(f"{product} {index}")
+                    print(f"{index} {product}")
                 prod_id = int(input("Enter product ID to be deleted: "))
                 my_products.pop(prod_id)
                 myFunctions.write_list_to_file(
@@ -134,7 +134,7 @@ while True:
             elif cour_nav == 2:
                 while True:
                     cour_nav = input("Enter Courier Name: ")
-                    my_courier.append(input3)
+                    my_courier.append(cour_nav)
                     new_item = open("couriers.txt", "w")
                     for courier in my_courier:
                         new_item.write(courier + "\n")
@@ -153,7 +153,7 @@ while True:
                 # UPDATE courier name at index in couriers list
             elif cour_nav == 3:
                 for index, courier in enumerate(my_courier):
-                    print(f"{courier} {index}")
+                    print(f"{index} {courier}")
                 courier_id = int(input(
                     "Enter Courier ID "))
                 courier_name = str(input("Enter New Courier Name: "))
@@ -175,7 +175,7 @@ while True:
             else:
                 cour_nav == 4
                 for index, courier in enumerate(my_courier):
-                    print(f"{courier} {index}")
+                    print(f"{index} {courier}")
                 courier_id = int(input("Enter courier ID to be deleted: "))
                 my_courier.pop(courier_id)
                 myFunctions.write_list_to_file(
